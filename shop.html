@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hijabis – Fashion</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="shop.css" />
+    <link rel="stylesheet" href="product.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="logo">Hijabis</div>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <div class="nav-menu">
+          <nav>
+            <a href="index.html">Home</a>
+            <a href="#" class="active">Shop</a>
+            <a href="product.html">Products</a>
+          </nav>
+          <div class="nav-icons">
+            <span
+              ><img src="images/Vector (1).png" class="iconn" alt=""
+            /></span>
+            <span><img src="images/SVG (2).png" alt="" /></span>
+            <span><img src="images/SVG (3).png" alt="" /></span>
+            <span><img src="images/SVG.png " class="iconn" /></span>
+          </div>
+        </div>
+      </header>
+      <section class="title-box">
+        <h1>Fashion</h1>
+        <p class="crumb">Home > Fashion</p>
+      </section>
+
+      <section class="shop-layout">
+        <aside class="filters">
+          <h3>Filters</h3>
+
+          <input type="radio" name="filter-tab" id="tab1" checked />
+          <input type="radio" name="filter-tab" id="tab2" />
+          <input type="radio" name="filter-tab" id="tab3" />
+          <input type="radio" name="filter-tab" id="tab4" />
+          <input type="radio" name="filter-tab" id="tab5" />
+          <input type="radio" name="filter-tab" id="tab6" />
+
+          <div class="filter-tabs">
+            <label for="tab1">Size</label>
+            <label for="tab2">Colors</label>
+            <label for="tab3">Prices</label>
+            <label for="tab4">Brands</label>
+            <label for="tab5">Collections</label>
+            <label for="tab6">Tags</label>
+          </div>
+
+          <div class="filter-panels">
+            <div class="panel">
+              <p class="panel-title">Size</p>
+              <div class="size-box">
+                <button>S</button><button>M</button><button>L</button
+                ><button>XL</button>
+              </div>
+            </div>
+
+            <div class="panel">
+              <p class="panel-title">Colors</p>
+              <div class="color-box">
+                <span class="dot" style="background: #ff6b6b"></span>
+                <span class="dot" style="background: #ff9f43"></span>
+                <span class="dot" style="background: #ffe66d"></span>
+                <span class="dot" style="background: #9ae66e"></span>
+                <span class="dot" style="background: #54a0ff"></span>
+                <span class="dot" style="background: #1dd1a1"></span>
+                <span class="dot" style="background: #5f27cd"></span>
+                <span class="dot" style="background: #f368e0"></span>
+                <span class="dot" style="background: #ff9ff3"></span>
+                <span class="dot" style="background: #00d2d3"></span>
+              </div>
+            </div>
+
+            <div class="panel">
+              <p class="panel-title">Prices</p>
+              <div class="list">
+                <div>$0–$50</div>
+                <div>$50–$100</div>
+                <div>$100–$150</div>
+                <div>$150–$200</div>
+                <div>$300–$400</div>
+              </div>
+            </div>
+
+            <div class="panel">
+              <p class="panel-title">Brands</p>
+              <div class="inline-list">
+                <span>Minimog</span><span>Retrolie Brook</span
+                ><span>Learts</span><span>Vagabond</span><span>Abby</span>
+              </div>
+            </div>
+
+            <div class="panel">
+              <p class="panel-title">Collections</p>
+              <div class="list">
+                <div>All products</div>
+                <div>Best sellers</div>
+                <div>New arrivals</div>
+                <div>Accessories</div>
+              </div>
+            </div>
+
+            <div class="panel">
+              <p class="panel-title">Tags</p>
+              <div class="tag-list">
+                <span>Fashion</span><span>Hats</span><span>Sandal</span
+                ><span>Belt</span><span>Bags</span><span>Snacker</span>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+        <main class="products">
+          <div class="prod-top">
+            <button class="sort-btn">Best selling ▾</button>
+
+            <div class="view">
+              <button class="v-btn active">
+                <span class="icon list"><span></span></span>
+              </button>
+              <button class="v-btn"><span class="icon two"></span></button>
+              <button class="v-btn"><span class="icon three"></span></button>
+              <button class="v-btn"><span class="icon four"></span></button>
+              <button class="v-btn">
+                <span class="icon five"
+                  ><div></div>
+                  <span></span><i></i
+                ></span>
+              </button>
+            </div>
+          </div>
+
+          <div class="grid">
+            <article class="card"><img src="images/Product 01.png" /></article>
+            <article class="card"><img src="images/Product 02.png" /></article>
+            <article class="card"><img src="images/Product 03.png" /></article>
+            <article class="card"><img src="images/Product 04.png" /></article>
+            <article class="card"><img src="images/Product 05.png" /></article>
+            <article class="card"><img src="images/Product 06.png" /></article>
+            <article class="card">
+              <img src="images/Product 07 (1).png" />
+            </article>
+            <article class="card"><img src="images/Product 08.png" /></article>
+            <article class="card">
+              <img src="images/Product 09 (1).png" />
+            </article>
+          </div>
+
+          <div class="pages">
+            <span class="dot"></span>
+            <span class="dot active"></span>
+            <span class="dot"></span>
+          </div>
+        </main>
+      </section>
+
+      <footer class="footer">
+        <div class="f-top">
+          <div class="logo">Hijabis</div>
+          <nav class="f-nav">
+            <a href="index.html">Home</a>
+            <a href="#">Shop</a>
+            <a href="product.html">Product</a>
+          </nav>
+        </div>
+        <p class="copy">Copyright © 2025 Hijabis. All Rights Reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
